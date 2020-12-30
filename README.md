@@ -16,7 +16,7 @@
   --speed {1,2,3,4,5}, -spd {1,2,3,4,5}
                         defines screen output speed, 1 - the lowest possible value, 5 - the biggest
                         possible value; default speed is set to 5
-  --hide-data, -hd      if set, the data will not be displayed
+  --hide-data, -hd      if set, only packet headers will be displayed
 ```
 # Output example
 
