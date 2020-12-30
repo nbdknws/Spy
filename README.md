@@ -12,7 +12,7 @@
   --sniff-to-screen, -ss
                         starts sniffing and directs output to screen
   --sniff-to-file FILE, -sf FILE
-                        starts sniffing and directs the output to a file name of your choice
+                        starts sniffing and directs output to a file name of your choice
   --speed {1,2,3,4,5}, -spd {1,2,3,4,5}
                         defines screen output speed, 1 - the lowest possible value, 5 - the biggest
                         possible value; default speed is set to 5
