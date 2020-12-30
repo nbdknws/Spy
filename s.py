@@ -147,7 +147,7 @@ def main():
     #add speed(time delay) of output control flag
     parser.add_argument('--speed', '-spd', dest='speed', type=int, choices=[1, 2, 3, 4, 5],help='defines screen output speed, 1 - the lowest possible value, 5 - the biggest possible value; default speed is set to 5', default=5)
     #add hide data flag
-    parser.add_argument('--hide-data', '-hd', dest='hide_data', action='store_true', help='if set, the data will not be displayed')
+    parser.add_argument('--hide-data', '-hd', dest='hide_data', action='store_true', help='if set, only packet headers will be displayed')
     args = parser.parse_args()
     #if screen output selected -> call to_screen finction 
     if args.screen:
