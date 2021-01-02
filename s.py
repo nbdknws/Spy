@@ -1,5 +1,9 @@
-from socket import socket, AF_PACKET, PF_PACKET, SOCK_RAW, htons, INADDR_ANY
 import sys
+try:
+    from socket import socket, AF_PACKET, PF_PACKET, SOCK_RAW, htons, INADDR_ANY
+except ImportError:
+    print('Linux operating system is required!')
+    sys.exit()
 import struct 
 import time
 import codecs
