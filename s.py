@@ -107,7 +107,7 @@ class Sniffer:
         return self.get_header_attrs(self.arp, attrs)
     
     def get_tcp_header(self):
-        attrs = {'source_port':'Source Port', 'destination_port':'Destination Port', 'sequence_number':"Sequence number", 'acknowledgement': 'Acknowledgement', 'flags_str':'Flags'}
+        attrs = {'source_port':'Source Port', 'destination_port':'Destination Port', 'sequence_number':"Sequence number", 'acknowledgement': 'Acknowledgement', 'data_offset':'Data Offset', 'reserved':'Reserved', 'flags_str':'Flags', 'window_size':'Window Size','cheksum':'Checksum' }
         return self.get_header_attrs(self.tcp, attrs)      
 
     def get_icmp_header(self):
